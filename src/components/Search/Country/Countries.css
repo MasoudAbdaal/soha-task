@@ -7,17 +7,18 @@
   justify-content: center;
 }
 .DropdownToggle {
-  text-align: left !important;
+  text-align: right !important;
   width: 35%;
-  text-align: center;
   margin-bottom: 60px;
   background-color: #d1f17c !important;
   color: #22c1c3 !important;
 }
 .dropdown-menu {
+  border-radius: 50px;
   width: 35%;
-  position: absolute !important;
+  position: absolute ;
   padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 .dropdown-item {
   background-color: #22c1c3 !important;
@@ -25,15 +26,13 @@
   text-align: center !important;
 }
 .dropdown-item:hover {
-  background-color: #d1f17c !important;
-  color: #22c1c3 !important;
+  background-color: #d1f17c !important ;
+  color: #22c1c3 !important ;
 }
 .DropdownToggleClose {
-  text-align: left !important;
+  text-align: right !important;
   background-color: #22c1c3 !important;
   color: #d1f17c !important;
-  width: 35% !important;
-  text-align: center;
-  margin-bottom: 60px !important;
-  color: black;
+  width: 35% ;
+  margin-bottom: 60px;
 }

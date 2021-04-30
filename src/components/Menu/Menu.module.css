@@ -5,21 +5,17 @@
 }
 
 .nav_link:hover {
-  justify-items: center;
+  border-radius: 30% !important;
   font-weight: bold;
   background-color: #d1f17c !important;
   color: blue !important;
 }
 .nav_link {
-  justify-items: center !important;
-  align-self: center !important;
-  text-align: center !important;
-
+  justify-content: center !important;
   line-height: 1em;
   color: white !important;
   margin-bottom: 5px;
-  padding-top: 20px;
-  padding-left: 70px !important;
+  margin-left: 50px;
 }
 .nav_item {
   background-color: #3cc4bd !important;
@@ -42,11 +38,4 @@
   opacity: 0;
   transform: scale(0.9);
   transition: opacity 300ms, transform 300ms;
-}
-.dropdown-item {
-  text-align: center !important;
-  padding-left: 30px;
-}
-.dropdown-menu {
-  border-radius: 90px !important;
 }

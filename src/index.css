@@ -1,19 +1,29 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Shabnam;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: rgb(45,194,192);
-  background: linear-gradient(8deg, rgba(45,194,192,1) 27%, rgba(209,241,124,1) 57%);
+  background: rgb(45, 194, 192);
+  background: linear-gradient(
+    8deg,
+    rgba(45, 194, 192, 1) 27%,
+    rgba(209, 241, 124, 1) 57%
+  );
   background-attachment: fixed;
   height: +100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Shabnam;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: Shabnam;
+}
+@font-face {
+  font-family: "Shabnam";
+  src: local("Shabnam"),
+    url("./font/shabnam-font-v2.4.0/Shabnam.woff") format("woff"),
+    url("./font/shabnam-font-v2.4.0/Shabnam.eot") format("eot"),
+    url("./font/shabnam-font-v2.4.0/Shabnam.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
